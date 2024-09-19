@@ -42,8 +42,8 @@
 	--primary-color			: #0E0D1B;
 	--secondary-color		: #FFF4F3;
 	--text-color			: #757575;
-	--accent-color			: #FF4438;
-	--gradient-color		: #FFBE36;
+	--accent-color			: #164193;
+	--gradient-color		: #9663d7;
 	--box-shadow-color		: #585B631A;
 	--white-color			: #FFFFFF;
 	--divider-color			: #FFDCC8;
@@ -163,6 +163,18 @@ body{
     z-index: 1;
 }
 
+img.logo {
+    width: 165px;
+}
+
+.icon-box img {
+	width: 47px;
+}
+
+.skill_image_2 img {
+    width: 366px !important;
+}
+
 .image-anime:hover:after{
     height: 250%;
     transition: all 600ms linear;
@@ -255,6 +267,10 @@ body{
 	transform: translate(-50%, -50%);
 }
 
+.loader_image{
+	width: 480px !important;
+}
+
 @keyframes rotate-loading{
 	0%{
 		transform: rotate(0deg);
@@ -265,22 +281,22 @@ body{
 	}
 }
 
-.btn-default{
-	display: inline-block;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 1em;
-	color: var(--white-color);
-	text-transform: capitalize;
-	background-image: linear-gradient(to right, var(--accent-color) 0%, var(--gradient-color) 50%, var(--accent-color) 100%);
-	background-size: 200% auto;
-	padding: 20px 30px;
-	border-radius: 10px;
-	border: none;
-	transition: 0.3s ease-in-out;
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
+.btn-default {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+    color: var(--white-color);
+    text-transform: capitalize;
+    background-image: linear-gradient(to right, #4756c1 0%, #9a63d8 50%, var(--accent-color) 100%);
+    background-size: 200% auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .btn-default:hover{
@@ -967,9 +983,6 @@ header.main-header .header-sticky.active{
 	transition: all 0.4s ease-in-out;
 }
 
-.service-item:hover .icon-box img{
-	filter: brightness(0) invert(1);
-}
 
 .service-body{
 	position: relative;
@@ -1050,6 +1063,7 @@ header.main-header .header-sticky.active{
 	width: 100%;
 	height: 100%;
 	z-index: -1;
+	filter: invert(1);
 }
 
 .strategy-img-1{
