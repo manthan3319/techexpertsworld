@@ -753,6 +753,20 @@ header.main-header .header-sticky.active{
 
 .hero-image{
 	position: relative;
+	
+}
+
+.whatsapp_icon{
+	width: 30px;
+}
+
+.whatsapp_icon_div {
+    position: fixed;
+    bottom: 16px;
+    right: 17px;
+    background-image: linear-gradient(to right, #4756c1 0%, #9a63d8 50%, var(--accent-color) 100%);
+    padding: 11px;
+    border-radius: 16px;
 }
 
 .company-sales{
