@@ -572,6 +572,7 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 	padding: 8px 20px !important;
 	transition: all 0.3s ease-in-out;
+	border-bottom: 1px solid transparent;
 }
 
 .main-menu ul li:hover > ul{
@@ -581,9 +582,10 @@ header.main-header .header-sticky.active{
     padding: 5px 0;
 }
 
-.main-menu ul ul li a:hover{
-	color: var(--primary-color);
-	background-color: transparent;
+.main-menu ul ul li a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 1px solid black;
 }
 
 .main-menu ul li.highlighted-menu{
